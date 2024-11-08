@@ -84,7 +84,7 @@ public class App {
     //   root.addChild(child);
     //   System.out.println(root.value);
         
-    //   // TreeNode  
+    //   // Binary TreeNode  
     // class TreeNode<T>{
     //     T value;
     //     TreeNode<T> left,right;
