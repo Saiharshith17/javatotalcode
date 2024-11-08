@@ -65,6 +65,49 @@ public class App {
     // //   }
     //   int size=set.size();
     //   System.out.println(size);
-       
+    
+    
+    
+    //   class TreeNode<T>{
+    //       T value;
+    //       List<TreeNode<T>> children;
+    //       public TreeNode(T value){
+    //           this.value=value;
+    //           this.children=new ArrayList<>();
+    //       }
+    //       public void addChild(TreeNode<T> child){
+    //           children.add(child);
+    //       }
+    //   }
+    //   TreeNode<Integer> root=new TreeNode<>(1);
+    //   TreeNode<Integer> child=new TreeNode<>(2);
+    //   root.addChild(child);
+    //   System.out.println(root.value);
+        
+    //   // TreeNode  
+    // class TreeNode<T>{
+    //     T value;
+    //     TreeNode<T> left,right;
+    //     public TreeNode(T value){
+    //         this.value=value;
+    //         this.left=this.right=null;
+    //     }
+    // }
+    // TreeNode<Integer> root=new TreeNode<>(1);
+    // root.left=new TreeNode<>(2);
+    // root.right=new TreeNode<>(4);
+    // System.out.println(root.value);
+    
+    
+    // //Listnode
+    // class ListNode<T>{
+    //     T value;
+    //     ListNode<T> next;
+    //     public ListNode(T value){
+    //         this.value=value;
+    //         this.next=null;
+    //     }
+    // }
+   
     }
 }
