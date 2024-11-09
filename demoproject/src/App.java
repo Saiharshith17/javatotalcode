@@ -2,6 +2,14 @@
 import java.util.*;
 
 public class App {
+    // public static int findgcd(int a,int b){
+    //     while(b!=0){
+    //         int temp=b;
+    //         b=a%b;
+    //         a=temp;
+    //     }
+    //     return a;
+    //     }
     public static void main(String[] args) throws Exception {
         // Scanner sc=new Scanner(System.in);
         // String name=sc.nextLine();
@@ -20,7 +28,22 @@ public class App {
         // for (int i = 0; i < v.size(); i++) {
         //     System.out.println(v.get(i));
         // }
-
+         // Vector<Integer> vec=new Vector<>();
+    // for(int i=0;i<10;i++){
+    //     vec.add(i);
+    // }
+    // int first=vec.firstElement();
+    // int last=vec.lastElement();
+    // int second=vec.get(1);
+    // vec.clear();
+    // boolean exist=vec.contains(2);
+    // boolean e=vec.isEmpty();
+    // System.out.println(last);
+    // System.out.println(second);
+    // System.out.println(exist);
+    // System.out.println(e);
+    // System.out.println(second);
+      
         // Map<String, Integer> map = new LinkedHashMap<String, Integer>();
         // Map<String, Integer> ma = new TreeMap<String, Integer>();
         // Map<String,Integer> m=new HashMap<String,Integer>();
