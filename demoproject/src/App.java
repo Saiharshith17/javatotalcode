@@ -136,16 +136,16 @@ public class App {
 
 
     
-        List list = new ArrayList();  // Raw type (no <E> specified)
-        list.add("Hello");
-        list.add(42);  // Allowed, as raw type ignores type safety
+        // List list = new ArrayList();  // Raw type (no <E> specified)
+        // list.add("Hello");
+        // list.add(42);  // Allowed, as raw type ignores type safety
         
-        String str = (String) list.get(0);  // Must cast manually
-        System.out.println(str);  // Output: Hello
+        // String str = (String) list.get(0);  // Must cast manually
+        // System.out.println(str);  // Output: Hello
 
-        // Causes runtime error because 42 is not a String
-        Integer num = (Integer) list.get(1);  // ClassCastException
-        System.out.println(num);
+        // // Causes runtime error because 42 is not a String
+        // Integer num = (Integer) list.get(1);  // ClassCastException
+        // System.out.println(num);
 
 
    
