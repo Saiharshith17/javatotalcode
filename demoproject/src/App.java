@@ -147,7 +147,9 @@ public class App {
         // Integer num = (Integer) list.get(1);  // ClassCastException
         // System.out.println(num);
 
-
+        // List<String> list = new ArrayList<>();
+        // list.add("Hello");  // Here, E is String
+        
    
     }
 }
