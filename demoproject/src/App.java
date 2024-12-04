@@ -1,6 +1,7 @@
 
-import java.util.*;
 
+import java.util.ArrayList;
+import java.util.List;
 public class App {
     // public static int findgcd(int a,int b){
     //     while(b!=0){
@@ -131,6 +132,22 @@ public class App {
     //         this.next=null;
     //     }
     // }
+    
+
+
+    
+        List list = new ArrayList();  // Raw type (no <E> specified)
+        list.add("Hello");
+        list.add(42);  // Allowed, as raw type ignores type safety
+        
+        String str = (String) list.get(0);  // Must cast manually
+        System.out.println(str);  // Output: Hello
+
+        // Causes runtime error because 42 is not a String
+        Integer num = (Integer) list.get(1);  // ClassCastException
+        System.out.println(num);
+
+
    
     }
 }
