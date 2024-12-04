@@ -150,6 +150,14 @@ public class App {
         // List<String> list = new ArrayList<>();
         // list.add("Hello");  // Here, E is String
         
-   
+     Map<String,String> map = new HashMap<>();
+     map.put("sai","100");
+     map.put("sai","100");
+     for(Map.Entry<String,String> entry :map.entrySet()){
+        System.out.println(entry.getKey());
+        System.out.println(entry.getValue());
+     }
+
+     
     }
 }
